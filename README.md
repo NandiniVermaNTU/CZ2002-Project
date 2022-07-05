@@ -22,6 +22,7 @@ It provides the following options:
 2. View current reservations
 3. Delete reservation
 4. Return to main menu
+
 **View current reservations** shows the current reservations with the following details - Customer ID, Customer Name, Contact, Table Number, Number of customers, Date (day and time).
 
 ### Table/Check-in Functions 
