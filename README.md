@@ -43,7 +43,7 @@ _**Check-in [Reserved customer]**_ asks for the customer ID with which the reser
 _**Check table availabilty**_ shows the status of all the 10 tables in the restaurant. If a table is available, its status is shown as <I> true </I> otherwise <I> false </I>. A table is identified by its unique Table ID.
 
 ### Sales and Revenue Functions
-
+It asks for the desired range (in days)
 
 
 
@@ -53,4 +53,5 @@ _**Check table availabilty**_ shows the status of all the 10 tables in the resta
 2. Table details – Table ID, Seating Capacity (ranging between 2 to 10), Availability (true/false) and Customer ID of customer (in case of reservation otherwise -1) are stored in **_Table.csv_**
 3. Customer Information - Customer ID, Customer Name, isMembership (TRUE if customer is a member of the restaurant else false) Customer Contact and Customer Gender are stored in **_Customer.csv_**
 4. Reservation information – Reservation time (in epoch), Number of customers (reservation pax), Customer ID (who made the reservation), Customer Name, Customer Contact and Reserved Table (Table ID) are stored in **_Reservation.csv_**
+5. Invoice details - 
 
