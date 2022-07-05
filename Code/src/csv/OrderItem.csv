@@ -1,0 +1,35 @@
+ItemID,Type,Name,Price,Description
+1,MainCourse,Big Mac,6.5,Awesome Burger
+2,MainCourse,Quarter Pounder with Cheese,6.6,Awesome Burger
+3,MainCourse,Quarter Pounder with Bacon & Cheese,7.7,Awesome Burger
+4,MainCourse,Quarter Pounder with Bacon Habanero Ranch,7.5,Awesome Burger
+5,MainCourse,Quarter Pounder Deluxe,6.8,Awesome Burger
+6,MainCourse,Double Quarter Pounder with Cheese,8.8,Awesome Burger
+7,MainCourse,Hamburger,5.7,Awesome Burger
+8,MainCourse,Cheeseburger,6.0,Awesome Burger
+9,MainCourse,Double Cheeseburger,7.5,Awesome Burger
+10,MainCourse,Bacon Clubhouse Burger,7.9,Awesome Burger
+11,MainCourse,McDouble,6.6,Awesome Burger
+12,MainCourse,Bacon McDouble,6.9,Awesome Burger
+13,Sides,Small French Fries,2.0,Delicious Sides
+14,Sides,Medium French Fries,2.5,Delicious Sides
+15,Sides,Large French Fries,3.0,Delicious Sides
+16,Sides,Kids French Fries,1.5,Delicious Sides
+17,Sides,Side Salad,2.6,Delicious Sides
+18,Sides,Apple Slices,1.5,Delicious Sides
+19,Sides,Fruit 'n Yogurt Parfait,2.3,Delicious Sides
+20,Desserts,Baked Apple Pie,4.0,Sweet Delicate Desserts
+21,Desserts,Chocolate Chip Cookie,2.5,Sweet Delicate Desserts
+22,Desserts,Oatmeal Raisin Cookie,2.5,Sweet Delicate Desserts
+23,Desserts,Kids Ice Cream Cone,1.8,Sweet Delicate Desserts
+24,Desserts,Hot Fudge Sundae,2.0,Sweet Delicate Desserts
+25,Desserts,Hot Caramel Sundae,2.0,Sweet Delicate Desserts
+26,Desserts,Strawberry Sundae,2.0,Sweet Delicate Desserts
+27,Drinks,Coca-Cola Classic,1.3,Refereshing Drink
+28,Drinks,Diet Coke,1.3,Refereshing Drink
+29,Drinks,Dr Pepper,1.3,Refereshing Drink
+30,Drinks,Sprite,1.8,Refereshing Drink
+31,Drinks,Minute Maid Orange Juice,1.3,Refereshing Drink
+32,Drinks,Iced Tea ,1.3,Refereshing Drink
+33,Drinks,Coffee,1.3,Refereshing Drink
+34,Drinks,Latte,1.8,Refereshing Drink

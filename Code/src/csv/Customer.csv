@@ -1,0 +1,11 @@
+Customer ID,Customer Name,isMembership,Customer Contact,Customer Gender
+1,Adam Black,TRUE,34567801,Male
+2,Douglas Smith,FALSE,98712345,Male
+3,Nicholas Lim,FALSE,34512309,Male
+4,Mary Smith,TRUE,32167809,Female
+5,Maria Tan,TRUE,92435876,Female
+6,Daniel Tay,FALSE,98124598,Male
+7,Winson Ang,FALSE,67312309,Male
+8,Lana Schnoert,TRUE,65498712,Female
+9,Jing Zhao,TRUE,98124598,Male
+10,Petromil Petkov,FALSE,89712365,Male
