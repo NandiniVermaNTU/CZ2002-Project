@@ -20,4 +20,5 @@ It provides the following options:
 3. Check table availability
 4. Return to main menu 
 </h4>
-<b> Check table availabilty </b> shows the status of all the 10 tables in the restaurant. If the table is available, its status is shown as <I> true </I> otherwise <I> false </I>. A table is identified by its unique Table ID. 
+<b> Check table availabilty </b> shows the status of all the 10 tables in the restaurant. If a table is available, its status is shown as <I> true </I> otherwise <I> false </I>. A table is identified by its unique Table ID. 
+<h4> hello </h4>
