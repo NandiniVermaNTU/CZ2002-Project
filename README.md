@@ -1,13 +1,13 @@
-#Restaurant Reservation and Point of Sales System 
+# Restaurant Reservation and Point of Sales System 
 A Java based CLI (Command Line Interface) developed for CZ2002 - Object Oriented Design and Programming.
 
-##Video Demonstration 
+## Video Demonstration 
 https://www.youtube.com/watch?v=HcF2U0MIF8s
 
-##Other Contributors 
+## Other Contributors 
 Zhao Mengao, Zixing Lin and Yong Hao
 
-##Application Features
+## Application Features
 The application begins with asking the restaurant staff for their staff ID. Each staff member is issued a unique staff ID. On keying in a valid staff ID, a welcome message is displayed with the following 6 options to proceed further: 
 1. Reservation Functions
 2. Table/Check-in Functions
@@ -16,7 +16,7 @@ The application begins with asking the restaurant staff for their staff ID. Each
 5. Sales and Revenue Functions
 6. Exit Application 
 
-###Table/Check-in Functions 
+### Table/Check-in Functions 
 It provides the following options:
 1. Check-in [Walk-in customer]
 2. Check-in [Reserved customer]
