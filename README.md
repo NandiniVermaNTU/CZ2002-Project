@@ -13,12 +13,9 @@ The application begins with asking the restaurant staff for their staff ID. Each
 5. Sales and Revenue Functions
 6. Exit Application
 <h3> Table/Check-in Functions </h3>
-<h4> 
 It provides the following options:
 1. Check-in [Walk-in customer]
 2. Check-in [Reserved customer]
 3. Check table availability
 4. Return to main menu 
-</h4>
-<b> Check table availabilty </b> shows the status of all the 10 tables in the restaurant. If a table is available, its status is shown as <I> true </I> otherwise <I> false </I>. A table is identified by its unique Table ID. 
-<h4> hello </h4>
+<B> Check table availabilty </B> shows the status of all the 10 tables in the restaurant. If a table is available, its status is shown as <I> true </I> otherwise <I> false </I>. A table is identified by its unique Table ID. 
