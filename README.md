@@ -31,7 +31,10 @@ It provides the following options:
 2. Check-in [Reserved customer]
 3. Check table availability
 4. Return to main menu
+
 **Check-in [Walk-in customer]** asks for the number of customers followed by the customer ID of the customer on whose behalf the table will be booked. If a matching table is available, it is allocated, an order is created and the menu is displayed. The items in the menu can be added to the order by keying in the Item ID. 
+
 **Check-in [Reserved customer]** asks for the customer ID with which the reservation was made. If a valid customer ID is entered, an order is created successfully and the food menu is displayed. The items in the menu can be added to the order by keying in the Item ID. 
+
 **Check table availabilty** shows the status of all the 10 tables in the restaurant. If a table is available, its status is shown as <I> true </I> otherwise <I> false </I>. A table is identified by its unique Table ID.
 
