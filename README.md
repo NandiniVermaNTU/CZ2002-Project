@@ -7,7 +7,7 @@ Zhao Mengao, Zixing Lin and Yong Hao
 <h2> Application Features </h2>
 The application begins with asking the restaurant staff for their staff ID. Each staff member is issued a unique staff ID. On keying in a valid staff ID, a welcome message is displayed with the following 6 options to proceed further: 
 1. Reservation Functions
-2. Table/Check-in Functions
+2. Table/Check-in Functions 
 3. Order and Invoice Functions
 4. Food menu functions
 5. Sales and Revenue Functions
