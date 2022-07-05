@@ -23,11 +23,11 @@ It provides the following options:
 3. Delete reservation
 4. Return to main menu
 
-**Create new reservation** asks for the customer ID making the reservation followed by the number of customers (between 1 to 10) for which the booking is made. The name of the customer to whom the keyed in customer ID belongs is also displayed. Next, the time for reservation in _dd-mm-yyyy, hh:mm:ss_ format is asked. If feasible (table with the specified pax is available on the desired date and time), the reservation is made successfully. Each reservation has a unique reservation ID. Expired reservations are removed automatically from Reservation.csv file. It is updated every time a staff member logs in the system. A attempt of reservation can fail if the desired reservation time is past (reservations should be made at least an hour in advance). 
+_**Create new reservation**_ asks for the customer ID making the reservation followed by the number of customers (between 1 to 10) for which the booking is made. The name of the customer to whom the keyed in customer ID belongs is also displayed. Next, the time for reservation in _dd-mm-yyyy, hh:mm:ss_ format is asked. If feasible (table with the specified pax is available on the desired date and time), the reservation is made successfully. Each reservation has a unique reservation ID. Expired reservations are removed automatically from Reservation.csv file. It is updated every time a staff member logs in the system. A attempt of reservation can fail if the desired reservation time is past (reservations should be made at least an hour in advance). 
 
-**View current reservations** shows the current reservations with the following details - Customer ID, Customer Name, Contact, Table Number, Number of customers, Date (day and time).
+_**View current reservations**_ shows the current reservations with the following details - Customer ID, Customer Name, Contact, Table Number, Number of customers, Date (day and time).
 
-**Delete reservation** asks for the reservation ID to delete. If a valid entry is made, the corresponding reservation is deleted. 
+_**Delete reservation**_ asks for the reservation ID to delete. If a valid entry is made, the corresponding reservation is deleted. 
 
 ### Table/Check-in Functions 
 It provides the following options:
@@ -36,11 +36,11 @@ It provides the following options:
 3. Check table availability
 4. Return to main menu
 
-**Check-in [Walk-in customer]** asks for the number of customers followed by the customer ID of the customer on whose behalf the table will be booked. If a matching table is available, it is allocated, an order is created and the menu is displayed. The items in the menu can be added to the order by keying in the Item ID. 
+_**Check-in [Walk-in customer]**_ asks for the number of customers followed by the customer ID of the customer on whose behalf the table will be booked. If a matching table is available, it is allocated, an order is created and the menu is displayed. The items in the menu can be added to the order by keying in the Item ID. 
 
-**Check-in [Reserved customer]** asks for the customer ID with which the reservation was made. If a valid customer ID is entered, an order is created successfully and the food menu is displayed. The items in the menu can be added to the order by keying in the Item ID. 
+_**Check-in [Reserved customer]**_ asks for the customer ID with which the reservation was made. If a valid customer ID is entered, an order is created successfully and the food menu is displayed. The items in the menu can be added to the order by keying in the Item ID. 
 
-**Check table availabilty** shows the status of all the 10 tables in the restaurant. If a table is available, its status is shown as <I> true </I> otherwise <I> false </I>. A table is identified by its unique Table ID.
+_**Check table availabilty**_ shows the status of all the 10 tables in the restaurant. If a table is available, its status is shown as <I> true </I> otherwise <I> false </I>. A table is identified by its unique Table ID.
 
 ### Sales and Revenue Functions
 
