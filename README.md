@@ -60,8 +60,11 @@ _**View/Change order detail**_ asks for the order ID of the order which needs to
 5. Back to last menu
 
 _Add items to this order_ is similar to adding an item from the displayed menu to the order by keying in its item ID. After adding an item to an existing order, it is updated and displayed. 
+
 _Delete items from this order_ asks for the item ID of the item to be deleted from the order. Multiple items can be deleted from an order simultaneously by keying in their item IDs separated by space. When done, hit enter. 
+
 _Cancel this order_ will reconfirm if the employee is sure to cancel the order. There are 2 input options - y or n. If the staff enters y, the order is deleted and appropriate message is displayed. 
+
 _Print invoice of this order_ displays the order bill of the customer. The final price of an order item is the summation of its price and the levied tax (7%). A discount of 25% is applicable for members of the restaurant only. 
 
 ### Food Menu Functions
