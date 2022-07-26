@@ -12,7 +12,7 @@ The application begins with asking the restaurant staff for their staff ID. Each
 1. Reservation Functions
 2. Table/Check-in Functions
 3. Order and Invoice Functions
-4. Food menu functions
+4. Food Menu Functions
 5. Sales and Revenue Functions
 6. Exit Application 
 
@@ -62,13 +62,51 @@ _**View/Change order detail**_ asks for the order ID of the order which needs to
 _Add items to this order_ is similar to adding an item from the displayed menu to the order by keying in its item ID. After adding an item to an existing order, it is updated and displayed. 
 _Delete items from this order_ asks for the item ID of the item to be deleted from the order. Multiple items can be deleted from an order simultaneously by keying in their item IDs separated by space. When done, hit enter. 
 _Cancel this order_ will reconfirm if the employee is sure to cancel the order. There are 2 input options - y or n. If the staff enters y, the order is deleted and appropriate message is displayed. 
+_Print invoice of this order_ displays the order bill of the customer. The final price of an order item is the summation of its price and the levied tax (7%). A discount of 25% is applicable for members of the restaurant only. 
 
+### Food Menu Functions
+It provides the following options:
+1. View Menu
+2. Add new food item or set package
+3. Delete food item or set package
+4. Edit food item or set info (Name/Price/Description)
+5. Return to main menu
+
+_**View Menu**_ renders the following options:
+1. View Main Course Menu
+2. View Sides Menu
+3. View Drinks Menu
+4. View Dessert Menu
+5. View Promotional Set Menu
+6. View all menu items
+7. Return to previous menu
+
+For acquiring detailed information about menu items, options 1 to 5 can be explored. Option 6 provides an overview of the entire menu.
+
+_View Main Course Menu_ provides a list of all the main course items available in the menu in detail (i.e. with a short and succint description). 
+_View Sides Menu_ provides a list of all the side dishes available in the menu in detail.
+_View Drinks Menu_ provides a list of all the beverages available in the menu in detail.
+_View Dessert Menu_ provides a list of all the sweet dishes available in the menu in detail. 
+_View all menu items_ prints a list of all the items present in the menu. 
+
+_**Add new food item or set package**_ allows the addition of an item to the menu. It asks for the item type to be added - Main Course, Sides, Drinks, Desserts and Sets. For all types other than Sets, it further asks for the name of the new item, its price and description. Then it displays the details of the newly added menu item. An item ID is also assigned to it (Item IDs are assigned in consecutive order). For SETS, it asks for the name of the new set package, its price and description followed by the selection of items to be included in the new set meal. Item IDs are to be entered with spaces. To finish selection, -1 is to be entered. An appropriate message saying that the new set has been added to the menu is displayed along with its details. The corresponding csv file (OrderItemSet.csv or OrderItem.csv) is updated concurrently. 
+
+_**Delete food item or set package**_ asks for the ID of the order item in the menu which is to be deleted. If the item ID keyed in is valid, it shows the details of the order item which has been deleted with an appropriate message. After deleting an item from the menu, it is not deleted from the database. It can still be viewed in the respective csv file. However, a deleted tag is added to it and it is not visible when the menu is printed, order is created or invoice is printed. 
+
+_**Edit food item or set info (Name/Price/Description)**_ enables editting of the details of an order item in the menu. It renders the following options:
+1. Edit Info of food item or set (Name, Price, Description)
+2. Add item to existing set package
+3. Remove item from existing set package
+4. Return to previous menu
+
+_Edit Info of food item or set (Name, Price, Description)_ asks for the ID of the order item whose details are to be edited. Upon keying in a valid item ID, the subsequent item information is displayed. Prompts for entering new information are displayed. -1 is to be entered for the details which are to be kept same. After changing any detail, the new order item information is displayed. The corresponding csv file is also updated in real time. 
+
+_Add item to existing set package_ allows addition of an item to an existing set package on the menu. It asks for the item ID of the set and displays its information. Then, it asks for the ID of the item to be added to the set. If a valid item ID is keyed in, it is added to the desired set package. 
+
+_Remove item from existing set package_ allows deletion of an item to an existing set package on the menu. It asks for the item ID of the set and displays its information. Then, it asks for the ID of the item to be deleted from the set. If a valid item ID is keyed in, it is deleted from the desired set package.
 
 ### Sales and Revenue Functions
 It asks for the desired range (in days) and displays the corresponding report - Item ID, Item name, Item type, Item sold (quantity) and Item Revenue. It also displays the total revenue (summation) generated during the keyed in duration. 
-
-
-
 
 ## CSV Files
 1. Staff Information – Staff ID, Name, Gender, Job Title are stored in **_Staff.csv_**
@@ -77,5 +115,6 @@ It asks for the desired range (in days) and displays the corresponding report - 
 4. Reservation information – Reservation time (in epoch), Number of customers (reservation pax), Customer ID (who made the reservation), Customer Name, Customer Contact and Reserved Table (Table ID) are stored in **_Reservation.csv_**
 5. Invoice details - Restaurant staff name (who served them), Customer Name, Number of customers (pax), Reservation time (in epoch),  
 6. Individual order item details - Item ID, Type (MainCourse, Sides, Deserts, Drinks), Name, Price and Description are contained in **_OrderItem.csv_**
-7. Set order item details - Set ID, Name, Price, Descriptiom are stored in **_OrderItemSet.csv_**
+7. Set order item details - Set ID, Name, Price and Descriptiom are stored in **_OrderItemSet.csv_**
+8. Order item details - Item ID, Type, Name, Price and Description are stored in **_OrderItem.csv_**
 
