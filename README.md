@@ -48,7 +48,7 @@ It provides the following options:
 2. View/Change order detail
 3. Quit to the main menu
 
-_Note that the customer needs to first check-in before placing an order. Thereafter, the menu will be displayed and an order can be placed by simply keying in the item ID of the desired items shown in the menu. To obtain more information about an item on the menu, **i + [item ID]** can be keyed in. For example, i 11 will display more information about item with ID 11 in the menu as retrieved from OrderItem.csv or OrderItemSet.csv._
+Note that the customer needs to first check-in before placing an order. Thereafter, the menu will be displayed and an order can be placed by simply keying in the item ID of the desired items shown in the menu. To obtain more information about an item on the menu, **i + [item ID]** can be keyed in. For example, i 11 will display more information about item with ID 11 in the menu as retrieved from OrderItem.csv or OrderItemSet.csv.
 
 _**View current orders**_ displays the current orders - order ID and Customer Name.
 
